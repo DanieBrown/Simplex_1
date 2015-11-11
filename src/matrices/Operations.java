@@ -1,13 +1,20 @@
 package matrices;
 
+/*****************************************************
+ * This is a class of matrix operations.
+ * @author zwick
+ *
+ ****************************************************/
 public class Operations {
-	/**
+	
+	
+	/********************************************************
 	 * Multiply m1*m2 and store the results in dest
 	 * @param m1
 	 * @param m2
 	 * @param dest
 	 * @return 
-	 */
+	 ********************************************************/
 	public Matrix multiplyM(Matrix m1, Matrix m2, Matrix dest){
 		int rows = m1.rows();
 		int cols = m2.cols();
@@ -30,38 +37,39 @@ public class Operations {
 		return dest;
 	}
 	
-	/**
+	/***********************************************************
 	 * Do gausian elimination on matrix, m1.
 	 * @param m1
 	 * @param dest
 	 * @return
-	 */
+	 **********************************************************/
 	public Matrix gaussElimination(Matrix m1, Matrix dest){
 		return dest;
 	}
 	
-	/**
+	/***********************************************************
 	 * Adds matrix a to matrix b and stores the result in dest.
 	 * @param a
 	 * @param b
 	 * @param dest
 	 * @return dest.
-	 */
+	 **********************************************************/
 	public Matrix addMatrix(Matrix a, Matrix b, Matrix dest){
 		//TODO
 		return dest;
 	}
 	
-	/**
+	/*****************************************************************
 	 * Subtracts matrix b from matrix a and stores the result in dest.
 	 * @param a
 	 * @param b
 	 * @param dest
 	 * @return dest.
-	 */
+	 ****************************************************************/
 	public Matrix subtractMatrix(Matrix a, Matrix b, Matrix dest){
 		//TODO
 		return dest;
 	}
-
+	
+	
 }
