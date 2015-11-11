@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Amerimex</title>
+    <title>Simplex</title>
 
     <!-- CSS -->
     <link href="bootstrap.css" rel="stylesheet">
@@ -22,7 +22,7 @@
   <body>
     <div class="jumbotron" style="background-image: url(test1.jpg); background-size: cover">
       <div class="zweezy_container">
-        <h1>Amerimex Homes</h1>
+        <h1>Simplex</h1>
         <p>Home</p>
      </div>
      <br>
@@ -39,7 +39,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="./amerimex.html" class="navbar-brand">Amerimex Homes</a>
+      <a href="./amerimex.html" class="navbar-brand">Simplex</a>
     </div>
     <nav id="bs-navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
