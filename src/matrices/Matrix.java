@@ -63,5 +63,12 @@ public class Matrix {
 	public double getElement(int row, int col){
 		return m[row][col];
 	}
+	/*****************************************************
+	 * Gets the matrix length.
+	 * @return The length of the matrix
+	 ****************************************************/
+	public int getLength(){
+		return m.length;
+	}
 
 }
